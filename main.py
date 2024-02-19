@@ -4,7 +4,7 @@ class Asiento:
         self. precio = precio
         self.registro = registro
 
-    def CambiarColor(self, color):
+    def cambiarColor(self, color):
         if (color == "rojo" or color == "verde" or color == "amarillo" or color == "negro" or color == "blanco" ):
             self.color = color
 
